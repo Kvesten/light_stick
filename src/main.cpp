@@ -1,7 +1,7 @@
 #include "light_led.hpp"
 #include <Arduino.h>
 
-light_led<2, 64> lil(16, 5);
+light_led<2, 64> lil();
 
 void setup() {
     Serial.begin(9600);
